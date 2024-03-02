@@ -1,6 +1,6 @@
 [package]
 name = "pwin"
-version = "0.1.3"
+version = "1.0.0"
 edition = "2021"
 description = "Simple Password Prompt"
 readme = "README.md"
