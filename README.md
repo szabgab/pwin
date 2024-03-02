@@ -3,7 +3,7 @@ This is a simple library to get a password without the text echoing on the termi
 Importing:
 
     extern crate pwin;
-    use crate::readpw;
+    use crate::pwin::readpw;
 
 
 Usage:
