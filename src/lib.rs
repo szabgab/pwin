@@ -1,2 +1,3 @@
-pub mod pwin;
+pub mod pw;
 
+pub use pw::readpw;
