@@ -1,27 +1,27 @@
-/// Usage: use crate::pwin::readpw
+/// Usage: use crate::readpw
 
 /// print!("Enter Password:");
 /// let passwd = readpw();
 
 /// returns a non mutable String
 
-pub mod pw {
-    extern crate termion;
+extern crate termion;
 
-    use termion::input::TermRead;
-    use std::io;
+use termion::input::TermRead;
+use std::io;
 
-    fn strip_nl(s: &mut String) -> String {
-        if s.ends_with('\n') {
+fn strip_nl(s: &mut String) -> String {
+    if s.ends_with('\n') {
+        s.pop();
+        if s.ends_with('\r') {
             s.pop();
-            if s.ends_with('\r') {
-                s.pop();
-            }
         }
-        let out: String = s.to_string();
-        out
     }
+    let out: String = s.to_string();
+    out
+}
 
+pub mod pw {
     pub fn readpw() -> String {
         let stdin = io::stdin();
         let mut stdin = stdin;
