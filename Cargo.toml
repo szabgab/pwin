@@ -14,7 +14,7 @@ keywords = ["password", "prompt", "input", "passwd", "terminal"]
 authors = ["Rex Sum - rexsum420@gmail.com",]
 
 [dependencies]
-termion = "*"
+termion = "3.0.0"
 
 [badges]
 maintenance = { status = "as-is"}
