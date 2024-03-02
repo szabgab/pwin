@@ -1,7 +1,7 @@
-/// Usage: use crate::pwin::pw
+/// Usage: use crate::pwin::readpw
 
 /// print!("Enter Password:");
-/// let passwd = pw::readpw;
+/// let passwd = readpw();
 
 /// returns a non mutable String
 
