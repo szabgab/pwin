@@ -1,7 +1,7 @@
 /// Usage: use pwin::pw
 
 /// print!("Enter Password:");
-/// let passwd = pw::Readpw;
+/// let passwd = pw::readpw;
 
 /// returns a non mutable String
 
@@ -22,7 +22,7 @@ pub mod pw {
         out
     }
 
-    pub fn Readpw() -> String {
+    pub fn readpw() -> String {
         let stdin = io::stdin();
         let mut stdin = stdin;
         let stdout = io::stdout();
