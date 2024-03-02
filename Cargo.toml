@@ -4,7 +4,17 @@ cargo-features = ["edition2024"]
 name = "pwin"
 version = "0.1.0"
 edition = "2021"
+description = "Simple Password Prompt"
+readme = "README.md"
+license = "MIT"
+homepage = "https://www.github.com/rexsum420/pwin"
+documentation = "examples/main.rs"
+repository = "https://www.github.com/rexsum420/pwin"
+keywords = ["password", "prompt", "input", "pw", "passwd", "no echo", "terminal", "beginner",]
 authors = ["Rex Sum - rexsum420@gmail.com",]
 
 [dependencies]
 termion = "*"
+
+[badges]
+maintenance = { status = "as-is"}

@@ -29,7 +29,7 @@ pub mod pw {
         let mut stdout = stdout;
 
         let passwd = TermRead::read_passwd(&mut stdin, &mut stdout);
-
+        println!("");
         let Ok(Some(mut password)) = passwd else { todo!() };
         let pw = strip_nl(&mut password);
         pw
