@@ -1,4 +1,6 @@
-/// Usage: use crate::pwin::readpw
+/// Usage: 
+/// extern crate pwin;
+/// use crate::pwin::readpw;
 
 /// print!("Enter Password:");
 /// let passwd = readpw();
