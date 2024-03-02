@@ -1,3 +1,3 @@
 pub mod pw;
 
-pub use pw::readpw;
+pub use pw::pw::readpw;
