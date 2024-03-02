@@ -1,4 +1,4 @@
-/// Usage: use pwin::pw
+/// Usage: use crate::pwin::pw
 
 /// print!("Enter Password:");
 /// let passwd = pw::readpw;

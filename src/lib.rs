@@ -1,1 +1,1 @@
-pub mod pw;
+pub use mod_rs::pw::readpw;
