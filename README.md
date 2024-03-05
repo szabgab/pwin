@@ -10,7 +10,7 @@ Usage:
 
     fn main() {
         print!("Enter Password:")
-        let passwd = pw::readpw();
+        let passwd = readpw();
     }
 
 
