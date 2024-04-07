@@ -5,9 +5,9 @@ edition = "2021"
 description = "Simple Password Prompt"
 readme = "README.md"
 license = "MIT"
-homepage = "https://www.github.com/rexsum420/pwin"
-documentation = "https://www.github.com/rexsum420/pwin/README.md"
-repository = "https://www.github.com/rexsum420/pwin"
+homepage = "https://github.com/rexsum420/pwin"
+documentation = "https://github.com/rexsum420/pwin/README.md"
+repository = "https://github.com/rexsum420/pwin"
 keywords = ["password", "prompt", "input", "passwd", "terminal"]
 authors = ["Rex Sum - rexsum420@gmail.com",]
 
